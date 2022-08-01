@@ -20,7 +20,7 @@ public static boolean isPrime(int n) {
         while (count < n) {
        
             // if the number is prime add it
-            if (isPrime(num) {
+            if (isPrime(num)) {
                 sum += num;
        
                 // increase the count
