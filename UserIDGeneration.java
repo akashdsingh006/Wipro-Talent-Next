@@ -23,7 +23,7 @@ public class UserIDGeneration {
 		
 		StringBuilder str = new StringBuilder();
 		
-		str.append(smallName.charAt(0) + largeName);
+		str.append(smallName.charAt(smallName.length()-1) + largeName);
 		
 		for(int i = 0; i < str.length(); i++) {
 			if(Character.isUpperCase(str.charAt(i))) {
